@@ -21,6 +21,31 @@ ul:after {
   height: 0;
 }
 
+.landing-page{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-top: 10rem;
+  min-height: 90vh;
+  font-size: 2rem;
+}
+
+.welcome{
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.animate{
+margin-left: 20px;
+}
+
+.typing{
+  color:rgb(0, 120, 212);
+  font-weight: 800;
+}
+
+
 pre {
   border-left: 10px solid #ccc;
   max-width: 500px;
@@ -157,7 +182,7 @@ textarea.form-control {
   right: 0;
   width: 23.8%;
   height: 100%;
-  background-color: #356ba2;
+  background-color: #5c2d91 ;
   overflow-y: auto;
   z-index: 2;
   display: -webkit-box;
@@ -249,7 +274,7 @@ textarea.form-control {
   opacity: 1;
   width: 25px;
   height: 3px;
-  background-color: #6699cc;
+  background-color: #548CFF;
   margin: 0 auto;
   left: 0;
   -webkit-transition: all 0.25s ease-in-out;
@@ -537,7 +562,7 @@ textarea.form-control {
     left: 100%;
     min-width: 250px;
     display: none;
-    background-color: aqua;
+    background-color: #548CFF;
   }
   /**:: Third Dropdown ::**/
   .navbar .navbar-collapse ul ul ul li {
@@ -569,7 +594,7 @@ textarea.form-control {
     min-width: 250px;
     display: none;
     z-index: 1;
-    background-color: fuchsia;
+    background-color: #7900FF;
   }
 }
 
@@ -690,7 +715,7 @@ textarea.form-control {
   padding-top: 90px!important;
   padding-bottom: 90px!important;
   min-height: 850px;
-  background-color: #6699cc;
+  background-color: #548CFF;
 }
 
 .work-section .container { max-width: 1242px; }
@@ -955,7 +980,7 @@ figure.effect-julia:hover p {
 }
 
 .gallery-section .slick-dots li {
-  background-color: #6699cc;
+  background-color: #548CFF;
   width: 20px;
   height: 20px;
   border-radius: 100%;
@@ -971,7 +996,7 @@ figure.effect-julia:hover p {
 .gallery-section .slick-dots li button { display: none; }
 
 .contact-section {
-  background-color: #6699cc;
+  background-color: #548CFF;
   flex-direction: column;
   justify-content: center;
 }
@@ -1051,7 +1076,7 @@ figure.effect-julia:hover p {
 /* <<< footer >>> */
 .footer {
   position: relative;
-  background-color: #6699cc;
+  background-color: #548CFF;
   color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;

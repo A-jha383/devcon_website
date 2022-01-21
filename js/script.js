@@ -62,3 +62,4 @@ jQuery(document).ready(function() {
         updateHash: true
     });
 });
+
