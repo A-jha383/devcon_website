@@ -31,7 +31,7 @@ ul:after {
 }
 
 .welcome{
-  font-weight: 700;
+  font-weight: 900;
   font-size: 2.5rem;
   margin-bottom: 0;
 }
@@ -54,7 +54,7 @@ pre {
 /* <<< Headings >>> */
 h1 { font-size: 40px; }
 h2 { font-size: 32px; }
-h3 { font-size: 28px; }
+h3 { font-size: 4rem; }
 h4 { font-size: 24px; }
 h5 { font-size: 20px; }
 h6 { font-size: 16px; }
@@ -721,10 +721,13 @@ textarea.form-control {
 .work-section .container { max-width: 1242px; }
 
 .tm-work-item-inner {
+  font-size: 2rem;
+  font-weight: 900;
   max-width: 360px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+  letter-spacing: 1.2px;
 }
 
 @media (max-width: 767px) {
@@ -772,17 +775,23 @@ textarea.form-control {
 }
 
 .work-section .item h3 {
-  color: #ffccff;
+  color: #7900FF;
+  font-weight: bolder;
   text-transform: uppercase;
   font-size: 27px;
-  letter-spacing: -1px;
   margin-bottom: 9px;
+}
+
+.work-section .item h3:hover{
+  text-shadow: 1px 1px 1px wheat;
+  cursor: pointer;
 }
 
 .work-section .item p {
   color: #fff;
-  line-height: 31px;
+  line-height: 35px;
   margin-bottom: 0;
+  font-size: 1.8rem;
 }
 
 .work-section .title {

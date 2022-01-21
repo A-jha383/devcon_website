@@ -18,6 +18,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -61,7 +62,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
                     <div class="item">
                         <!-- <div class="bg-blue-transparent logo-fa"><span><i class="fas fa-2x fa-atom"></i></span>Welcome to the Developer Conference</div>
                         <div class="bg-blue-transparent simple"><p>Your simplest HTML template, the most amazing page ever, yet free!</p></div> -->
-                        <div class="landing-page">  
+                        <div data-aos="zoom-out-left" class="landing-page">  
                             <h1 class="welcome">Welcome to the Developer Conference!</h1>
                             <div class="animate">Together we
                                 <span class="typing"></span></div>    
@@ -73,31 +74,31 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             <section class="work-section section" id="section-2">
                 <div class="container">
                     <div class="row">
-                        <div class="item col-md-4">
+                        <div data-aos="zoom-out-down" class="item col-md-4">
                             <div class="tm-work-item-inner">
                                 <div class="icn"><i class="fas fa-2x fa-icons"></i></div>
-                                <h3>.01 Get An Idea</h3>
-                                <p>Simply Amazed is free HTML template provided by Tooplate website. Please tell your friends about our website. Thank you.</p>
+                                <h3>“We showed that we are united and that we, young people, are unstoppable”</h3>
+                                <p>We bring to you Microsoft Learn Student Ambassador DevCon 2022 ! </p>
                             </div>                        
                         </div>
-                        <div class="item col-md-4 one">
+                        <div data-aos="zoom-out-down" class="item col-md-4 one">
                             <div class="tm-work-item-inner">
                                 <div class="icn"><i class="fas fa-2x fa-tools"></i></div>
-                                <h3>.02 Create It</h3>
-                                <p>This is a full-width CSS template with bootstrap 5, you can download, modify and use this layout for your simple CSS website.</p>
+                                <h3>Our vision</h3>
+                                <p>To bring tech-savvy people together to learn, share knowledge and connect across the world. We work as a unit, striving to create a proficient future for our youth.  </p>
                             </div>
                         </div>
-                        <div class="item col-md-4 two">
+                        <div data-aos="zoom-out-down" class="item col-md-4 two">
                             <div class="tm-work-item-inner">
                                 <div class="icn"><i class="fab fa-2x fa-phoenix-framework"></i></div>
-                                <h3>.03 Execute it</h3>
-                                <p>You are allowed to use this for your personal and commerical projects, you are not allowed to redistribute the template ZIP file on any download site.</p>
+                                <h3>Team Members</h3>
+                                <p>Most of the team members are students from colleges all over India joining us to make this event a huge success. The hard work and dedication of our team since the beginning were remarkable. </p>
                             </div>
                         </div>
                     </div>
-                    <div class="title">
+                    <!-- <div class="title">
                         <h2>Our Work</h2>
-                    </div>
+                    </div> -->
                 </div>
             </section>
 
@@ -306,11 +307,18 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         </main>
     </div>
     <script src="landinganimate.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.singlePageNav.min.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        AOS.init({
+            offset:120,
+            duration:1700,
+        });
+    </script>
 </body>
 </html>
