@@ -9,7 +9,7 @@ var typed = new Typed(".typing", {
 var counter = 1; //instantiate a counter
 var maxImage = 4; //the total number of images that are available
 setInterval(function() {
-    document.querySelector('main').style.backgroundImage = "url('img/bg/" + (counter + 1) + ".jpg'), width:100% height:100%";
+    document.querySelector('header').style.backgroundImage = "url('img/bg/" + (counter + 1) + ".jpg')";
     if (counter + 1 == maxImage) {
         counter = 0; //reset to start
     } else {
