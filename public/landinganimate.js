@@ -5,18 +5,13 @@ var typed = new Typed(".typing", {
     loop: true
 });
 
-var images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg"];
-    $(function () {
-        var i = 0;
-        $("#section-1").css("background-image", "url(img/bg/" + images[i] + ")");
-        setInterval(function () {
-            i++;
-            if (i == images.length) {
-                i = 0;
-            }
-            $("#section-1").fadeOut(2, function () {
-                $(this).css("background-image", "url(img/bg/" + images[i] + ")");
-                $(this).fadeIn(2);
-            });
-        }, 5000);
-    });
+var images = ["img/bg/1.jpg", "img/bg/2.jpg", "img/bg/3.jpg", "img/bg/4.jpg"];
+var imageHead = document.getElementById("section-1");
+var i = 0;
+setInterval(function() {
+      imageHead.style.backgroundImage = "url(" + images[i] + ")";
+      i = i + 1;
+      if (i == images.length) {
+        i =  0;
+      }
+}, 1000);
