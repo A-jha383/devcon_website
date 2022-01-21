@@ -1071,6 +1071,23 @@ figure.effect-julia:hover p {
 .contact-section .contact-details ul li a:hover { color: #99ccff; }
 .contact-section .map { text-align: center; }
 
+/* social-icons  */
+.social-icons{
+  text-align: center;
+  margin-top: 20px;
+  width: 272px;
+}
+
+.social-icons a{
+  font-size: 30px;
+  margin: 0 10px;
+  color: white;
+}
+
+.social-icons a:hover{
+  opacity: .5;
+}
+
 .map-outer{
   position:relative;
   height:400px;
