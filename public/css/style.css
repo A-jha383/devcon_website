@@ -144,7 +144,7 @@ a:focus {
 
 .btn-primary.active, .btn-primary:active, .btn-primary.focus, .btn-primary:focus, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary:hover {
   color: #fff;
-  background-color: #99ccff;
+  background-color:#0e76a8;
   border-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -160,6 +160,14 @@ a:focus {
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+form{
+  margin-right: 5rem;
+}
+
+.fa-instagram:hover{
+  color:#E1306C;
 }
 
 .form-control {
@@ -1049,7 +1057,7 @@ figure.effect-julia:hover p {
 .gallery-section .slick-dots li button { display: none; }
 
 .contact-section {
-  background-color: #548CFF;
+  background-color: #5c2d91;
   flex-direction: column;
   justify-content: center;
 }
@@ -1079,6 +1087,10 @@ figure.effect-julia:hover p {
   color: #fff;
   line-height: 31px;
   margin-bottom: 38px;
+  font-weight: 800;
+  font-size: 1.5rem;
+  font-family: 'Poppins','sans-serif';
+  letter-spacing: 1.5px;
 }
 
 .contact-section .contact-details ul {
@@ -1111,7 +1123,6 @@ figure.effect-julia:hover p {
 }
 
 .contact-section .contact-details ul li a:hover { color: #99ccff; }
-.contact-section .map { text-align: center; }
 
 /* social-icons  */
 .social-icons{
@@ -1126,27 +1137,27 @@ figure.effect-julia:hover p {
   color: white;
 }
 
-.social-icons a:hover{
-  opacity: .5;
+.fa-linkedin:hover{
+  color:#0e76a8 ;
 }
 
-.map-outer{
-  position:relative;
-  height:400px;
-  width:100%;
+.fa-twitter:hover{
+  color: #00acee;
 }
 
-.gmap-canvas {
-  overflow:hidden;
-  background:none!important;
-  height:400px;
-  width:100%;
+.fa-discord:hover{
+  color:	#6A5ACD;
+  /* color:#2C2F33; */
+}
+
+.fa-youtube:hover{
+  color:#FF0000;
 }
 
 /* <<< footer >>> */
 .footer {
   position: relative;
-  background-color: #548CFF;
+  background-color: #5c2d91;
   color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -1211,7 +1222,9 @@ figure.effect-julia:hover p {
   }
 
   .banner-section { padding-top: 0; }
-  .contact-section { padding-bottom: 0; }
+  .contact-section { 
+    padding-bottom: 0;
+   }
 }
 
 @media (max-width: 620px) {
