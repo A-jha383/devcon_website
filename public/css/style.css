@@ -1128,7 +1128,8 @@ figure.effect-julia:hover p {
 .social-icons{
   text-align: center;
   margin-top: 20px;
-  width: 272px;
+  width: 270px;
+  margin-bottom: 50px;
 }
 
 .social-icons a{
