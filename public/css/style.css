@@ -33,6 +33,29 @@ ul:after {
   color:white;
 }
 
+.btn-container{
+  margin: 4rem 0; 
+}
+
+.btn-container button{
+  border: none;
+  background: #5c2d91;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  width: 16rem;
+  outline: none;
+}
+
+.btn-container button a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-container button:hover{
+  background:#480099;
+}
+
 .welcome{
   font-weight: 900;
   font-size: 2.5rem;
