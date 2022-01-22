@@ -144,7 +144,7 @@ a:focus {
 
 .btn-primary.active, .btn-primary:active, .btn-primary.focus, .btn-primary:focus, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary:hover {
   color: #fff;
-  background-color:#5c2d91;
+  background-color:#0e76a8;
   border-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -1057,7 +1057,7 @@ figure.effect-julia:hover p {
 .gallery-section .slick-dots li button { display: none; }
 
 .contact-section {
-  background-color: #548CFF;
+  background-color: #5c2d91;
   flex-direction: column;
   justify-content: center;
 }
@@ -1146,14 +1146,18 @@ figure.effect-julia:hover p {
 }
 
 .fa-discord:hover{
-  /* color:	#7289DA; */
-  color:#2C2F33;
+  color:	#6A5ACD;
+  /* color:#2C2F33; */
+}
+
+.fa-youtube:hover{
+  color:#FF0000;
 }
 
 /* <<< footer >>> */
 .footer {
   position: relative;
-  background-color: #548CFF;
+  background-color: #5c2d91;
   color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
