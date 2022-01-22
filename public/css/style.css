@@ -232,7 +232,7 @@ textarea.form-control {
   right: 0;
   width: 23.8%;
   height: 100%;
-  background-color: #5c2d91 ;
+  background-color: #4d4df4 ;
   overflow-y: auto;
   z-index: 2;
   display: -webkit-box;
@@ -402,7 +402,7 @@ textarea.form-control {
 .navbar {
   padding: 0;
   margin-bottom: 0;
-  background-color: #5c2d91;
+  background-color: #4d4df4;
 }
 
 .navbar .navbar-collapse {
@@ -645,7 +645,7 @@ textarea.form-control {
     min-width: 250px;
     display: none;
     z-index: 1;
-    background-color: #7900FF;
+    background-color: #4d4df4;
   }
 }
 
