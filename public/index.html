@@ -292,7 +292,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
                     <div class="row">
                         <div class="col-lg-5 col-md-6 mb-4 contact-form">
                             <div class="form tm-contact-item-inner">
-                                <form action="#" method="POST">
+                                <form id="my-form" action="https://formspree.io/f/mbjwdqvy" method="POST">
                                     <div class="form-group">
                                         <input name="name" type="text" class="form-control" placeholder="Name">
                                     </div>
@@ -303,9 +303,11 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
                                         <textarea name="message" class="textarea form-control" placeholder="Message"></textarea>
                                     </div>
                                     <div class="form-group text-right">
-                                        <input type="submit" class="btn btn-primary" value="Send it">
+                                        <input type="submit" class="btn btn-primary" value="Send it" id="my-form-button">
                                     </div>
                                 </form>
+                                <br>
+                                <p id="my-form-status" style="color:rgb(71, 187, 233);"></p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4 contact-details">
@@ -355,6 +357,29 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             </section>
         </main>
     </div>
+    <script>
+        var form = document.getElementById("my-form");
+
+        async function handleSubmit(event) {
+            event.preventDefault();
+            var status = document.getElementById("my-form-status");
+            var data = new FormData(event.target);
+            fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                status.innerHTML = "Thanks for your submission!";
+                form.reset()
+            }).catch(error => {
+                status.innerHTML = "Oops! There was a problem submitting your form"
+            });
+        }
+        form.addEventListener("submit", handleSubmit)
+    </script>
+
     <script src="landinganimate.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
