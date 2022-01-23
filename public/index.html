@@ -27,6 +27,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
+    <div id="loader"></div>
     <div id="outer">
         <header class="header order-last" id="tm-header">
             <nav class="navbar">
@@ -425,5 +426,27 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             duration:1700,
         });
     </script>
+    <script>var loader;
+
+        function loadNow(opacity) {
+            if (opacity <= 0) {
+                displayContent();
+            } else {
+                loader.style.opacity = opacity;
+                window.setTimeout(function() {
+                    loadNow(opacity - 0.05);
+                }, 50);
+            }
+        }
+        
+        function displayContent() {
+            loader.style.display = 'none';
+            document.getElementById('outer').style.display = 'block';
+        }
+        
+        document.addEventListener("DOMContentLoaded", function() {
+            loader = document.getElementById('loader');
+            loadNow(1);
+        });</script>
 </body>
 </html>
