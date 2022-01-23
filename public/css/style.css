@@ -451,7 +451,7 @@ textarea.form-control {
       -ms-flex-align: center;
           align-items: center;
   padding-left: 66px;
-  margin-bottom: 38px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1366px) {
@@ -1368,6 +1368,11 @@ margin-top: 5px;
   font-weight: 900;
 }
 
+.event-info-container h2:hover{
+  text-shadow: 1px 1px 1px wheat;
+  cursor: pointer;
+}
+
 .left-container, .right-container{
   padding: 2rem;
 }
@@ -1378,11 +1383,14 @@ margin-top: 5px;
 
 .right-container{
   background:#3c4043f2;
+  display: flex;
 }
 
 .right-inner{
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media all and (max-width: 500px) {
