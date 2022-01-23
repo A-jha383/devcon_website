@@ -87,6 +87,9 @@ margin-left: 20px;
   background-color:  #115aeb;
 }
 
+.devcon{
+  font-family: 'Poppins','sans-serif';
+}
 
 pre {
   border-left: 10px solid #ccc;
@@ -765,7 +768,7 @@ textarea.form-control {
 .work-section {
   padding-top: 90px!important;
   padding-bottom: 90px!important;
-  min-height: 1040px;
+  min-height: 200vh;
   background-color: #7020cc;
 }
 
@@ -1400,11 +1403,10 @@ margin-top: 5px;
 .app-widget-profile-card-night{
   width:250px;
   height:300px;
-  background-color:rgba(11, 10, 45);
+  background-color:#115aeb;
   display:inline-block;
   border-radius:5px;
   border:1px solid inherit;
- 
   margin:25px;
   padding:10px;
 }
@@ -1417,8 +1419,8 @@ margin-top: 5px;
   background-position:cenetr;
   position:relative;
   top:-40px;
-  right:-0px;
-  box-shadow:1px 1px 10px 1px darkblue,1px 1px 20px 1px aqua;
+  right:8px;
+  /* box-shadow:1px 1px 10px 1px darkblue,1px 1px 20px 1px aqua; */
   z-index:1;
 }
 .app-widget-profile-card-night hr{
@@ -1432,7 +1434,7 @@ margin-top: 5px;
 .app-widget-profile-card-night h1{
   text-transform: uppercase;
   font-size:28px;
-  color:rgba(60, 154, 219, 1);
+  color:rgb(255, 255, 255);
   font-family:arial;
   text-align:center;
   position:relative;
@@ -1440,7 +1442,7 @@ margin-top: 5px;
   text-shadow:5px 1px 50px aqua,5px 1px 60px blue;
 }
 .app-widget-profile-card-night ul li{
- color:rgba(60, 154, 219, 1); 
+ color:rgb(255, 255, 255); 
   font-size:15px;
   position:relative;
   right:-20px;
@@ -1449,7 +1451,7 @@ margin-top: 5px;
 .app-widget-profile-card-night h2{
   text-transform: uppercase;
   font-size:12px;
-  color:rgba(60, 154, 219, 1);
+  color:rgb(255, 255, 255);
   font-family:arial;
   text-align:center;
   position:relative;
@@ -1459,7 +1461,7 @@ margin-top: 5px;
 .app-widget-profile-card-night h3{
   text-transform: uppercase;
   font-size:20px;
-  color:rgba(60, 154, 219, 1);
+  color:rgb(255, 255, 255);
   font-family:arial;
   text-align:center;
   position:relative;
@@ -1471,7 +1473,7 @@ margin-top: 5px;
 .app-widget-profile-card-night h4{
   text-transform: uppercase;
   font-size:14px;
-  color:rgba(60, 154, 219, 1);
+  color:rgb(255, 255, 255);
   font-family:arial;
   text-align:center;
   position:relative;
