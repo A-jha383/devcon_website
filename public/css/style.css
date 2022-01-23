@@ -1527,9 +1527,11 @@ margin-top: 5px;
 
 #timeline-container {
   background: #00112e;
-  background: linear-gradient(171deg, #00112e 0%, #1d1594 100%);
+  background: linear-gradient(171deg, #00112e 0%, #5c2d91 100%);
   overflow: auto;
-  padding: 60px 0;
+  padding: 40px 30px;
+  box-shadow: 0px 0px 5px -1px black;
+  border-radius: 10px;
 }
 #timeline-container .inner-container {
   max-width: 1000px;
@@ -1552,6 +1554,23 @@ margin-top: 5px;
   max-width: 900px;
   margin-top: 16px;
   margin-left: 5%;
+}
+
+.timeline h2{
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.timeline-heading{
+  margin-bottom: 3rem;
+}
+
+.timeline-heading h2{
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 .timeline-item {
