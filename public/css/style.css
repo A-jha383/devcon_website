@@ -866,7 +866,7 @@ textarea.form-control {
 	float: left;
   overflow: hidden;
   margin: 0;
-  max-width: 200px;
+  max-width: 300px;
 	height: auto;
 	background: #3085a3;
 	text-align: center;
@@ -1378,56 +1378,121 @@ margin-top: 5px;
   display: flex;
 }
 
-.card {
-  margin: 30px auto;
-  width: 300px;
-  height: 300px;
-  border-radius: 40px;
-box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-.card .card_image {
-  width: inherit;
-  height: inherit;
-  border-radius: 40px;
-}
-
-.card .card_image img {
-  width: inherit;
-  height: inherit;
-  border-radius: 40px;
-  object-fit: cover;
-}
-
-.card .card_title {
-  text-align: center;
-  border-radius: 0px 0px 40px 40px;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  margin-top: -80px;
-  height: 40px;
-}
-
-.card:hover {
-  transform: scale(0.9, 0.9);
-  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-    -5px -5px 30px 15px rgba(0,0,0,0.22);
-}
-
-.title-white {
-  color: white;
-}
-
-.title-black {
-  color: black;
-}
-
 @media all and (max-width: 500px) {
   .card-list {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.app-widget-profile-card-night{
+  width:250px;
+  height:300px;
+  background-color:rgba(11, 10, 45);
+  display:inline-block;
+  border-radius:5px;
+  border:1px solid inherit;
+ 
+  margin:25px;
+  padding:10px;
+}
+.app-widget-profile-card-night img{
+  border-radius:125px;
+  transition:all 0.5s;
+  width:125px;
+  height:125px;
+  margin:10px;
+  background-position:cenetr;
+  position:relative;
+  top:-40px;
+  right:-0px;
+  box-shadow:1px 1px 10px 1px darkblue,1px 1px 20px 1px aqua;
+  z-index:1;
+}
+.app-widget-profile-card-night hr{
+  position:relative;
+  bottom:120px;
+  background-color:rgba(16, 188, 248, 0.44);
+  height:2px;
+  border:none;
+  box-shadow:1px 1px 4px 1px rgba(20, 122, 192, 1);
+}
+.app-widget-profile-card-night h1{
+  text-transform: uppercase;
+  font-size:28px;
+  color:rgba(60, 154, 219, 1);
+  font-family:arial;
+  text-align:center;
+  position:relative;
+  bottom:40px;
+  text-shadow:5px 1px 50px aqua,5px 1px 60px blue;
+}
+.app-widget-profile-card-night ul li{
+ color:rgba(60, 154, 219, 1); 
+  font-size:15px;
+  position:relative;
+  right:-20px;
+}
+
+.app-widget-profile-card-night h2{
+  text-transform: uppercase;
+  font-size:12px;
+  color:rgba(60, 154, 219, 1);
+  font-family:arial;
+  text-align:center;
+  position:relative;
+  bottom:40px;
+  text-shadow:5px 1px 50px aqua,5px 1px 60px blue;
+}
+.app-widget-profile-card-night h3{
+  text-transform: uppercase;
+  font-size:20px;
+  color:rgba(60, 154, 219, 1);
+  font-family:arial;
+  text-align:center;
+  position:relative;
+  bottom:-40px;
+  text-shadow:5px 1px 50px aqua,5px 1px 60px blue;
+}
+
+
+.app-widget-profile-card-night h4{
+  text-transform: uppercase;
+  font-size:14px;
+  color:rgba(60, 154, 219, 1);
+  font-family:arial;
+  text-align:center;
+  position:relative;
+  bottom:60px;
+  text-shadow:5px 1px 50px aqua,5px 1px 60px blue;
+}
+.app-widget-profile-card-night button{
+  width:100%;
+  z-index:2;
+  bottom:190px;
+  position:relative;
+  height:60px;
+  font-size:22px;
+  background-color:rgba(11, 10, 45);
+  border:none;
+  cursor:pointer;
+  transition:all 2s;
+  display:none;
+  color:aqua;
+  box-shadow:1px 1px 100px 1px aqua;
+}
+.app-widget-profile-card-night button:hover{
+  box-shadow:1px 1px 100px 1px blue;
 }
