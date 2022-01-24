@@ -30,7 +30,7 @@ ul:after {
   margin-top: 10rem;
   min-height: 90vh;
   font-size: 2rem;
-  color:white;
+  color:#480099;
 }
 
 .btn-container{
@@ -67,7 +67,7 @@ margin-left: 20px;
 }
 
 .typing{
-  color:rgb(255, 255, 255);
+  color:#115aeb;
   font-weight: 800;
 }
 

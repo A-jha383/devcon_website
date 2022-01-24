@@ -5,7 +5,7 @@ var typed = new Typed(".typing", {
     loop: true
 });
 
-var images = ["img/bg/3.jpg","img/bg-images/8.jpg","img/bg-images/12.jpg","img/bg-images/13.jpg"];
+var images = ["img/bg-images/bg1.png","img/bg-images/bg2.png","img/bg-images/bg3.png","img/bg-images/bg4.png"];
 var imageHead = document.getElementById("section-1");
 var i = 0;
 setInterval(function() {
