@@ -1443,7 +1443,8 @@ margin-top: 5px;
 }
 
 .app-widget-profile-card-night img{
-  /* border-radius:50%; */
+  align-items: center;
+  border-radius:50%;
   border:2px solid #480099;
   transition:all 0.5s;
   width:125px;
@@ -1453,7 +1454,7 @@ margin-top: 5px;
   position:relative;
   top:-40px;
   right:8px;
-  /* box-shadow:1px 1px 10px 1px darkblue,1px 1px 20px 1px aqua; */
+  box-shadow:1px 1px 10px 1px darkblue,1px 1px 20px 1px aqua;
   z-index:1;
 }
 .app-widget-profile-card-night hr{

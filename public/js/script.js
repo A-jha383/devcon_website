@@ -1,7 +1,7 @@
 jQuery(document).ready(function() {
   "use strict";
     $('.gallery-slider').slick({
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 3,
         autoplay: false,
         dots: true,
@@ -27,7 +27,7 @@ jQuery(document).ready(function() {
           {
             breakpoint: 575,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1,
               slidesToScroll: 2
             }
           }
