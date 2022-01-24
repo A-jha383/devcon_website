@@ -1413,7 +1413,7 @@ margin-top: 5px;
 }
 
 .app-widget-profile-card-night{
-  width:250px;
+  width:550px;
   height:300px;
   background-color:#115aeb;
   display:inline-block;
@@ -1422,8 +1422,28 @@ margin-top: 5px;
   margin:25px;
   padding:10px;
 }
+
+@media screen and (max-width: 900px){
+  .app-widget-profile-card-night h1{
+   font-size: 0.2px;
+   word-wrap: break-word;
+     }
+  .app-widget-profile-card-night h2{
+    font-size: 1px;
+    word-wrap: break-word;
+    }
+  .app-widget-profile-card-night img{
+    border-radius: 0;
+  }
+  .app-widget-profile-card-night{
+    width:600px;
+    height: 300px;
+  }
+  
+}
+
 .app-widget-profile-card-night img{
-  border-radius:50%;
+  /* border-radius:50%; */
   border:2px solid #480099;
   transition:all 0.5s;
   width:125px;
@@ -1446,9 +1466,9 @@ margin-top: 5px;
 }
 .app-widget-profile-card-night h1{
   /* text-transform: uppercase; */
-  font-size:1.6rem;
+  font-size:1rem;
   color:rgb(255, 255, 255);
-  font-family:arial;
+  font-family:'Poppins','sans-serif';
   text-align:center;
   position:relative;
   bottom:40px;
@@ -1462,7 +1482,7 @@ margin-top: 5px;
 }
 
 .app-widget-profile-card-night h2{
-  font-size:20px;
+  font-size:1.3rem;
   color:#e7d1ff;
   font-family:arial;
   text-align:center;
