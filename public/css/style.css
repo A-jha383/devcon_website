@@ -21,6 +21,30 @@ ul:after {
   height: 0;
 }
 
+.sponsors{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ height: 30vh;
+}
+
+.sponsors h2{
+  font-size: 2rem;
+  color: #00acee;
+}
+
+.sponsors p{
+  font-weight: 800;
+  font-size: 1.8rem;
+  letter-spacing: 1.4px;
+  margin-top: 2rem;
+}
+
+mx-auto gallery-slider img{
+  object-fit: cover;
+}
+
 
 
 .landing-page{
