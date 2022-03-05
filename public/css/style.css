@@ -22,16 +22,31 @@ ul:after {
 }
 
 .sponsors{
+  margin: 30px;
+  margin-right: 0;
+  padding: 15rem;
  display: flex;
  align-items: center;
  justify-content: center;
- flex-direction: column;
+ /* flex-direction: column; */
  height: 30vh;
 }
 
-.sponsors h2{
+.growaza{
+  width:250px;
+  height:250px;
+}
+
+.sponsors img{
+   margin-right:1.8rem;
+  width:300px;
+}
+
+.sponsor-head{
+  text-align: right;
+  margin: 2rem;
   font-size: 2rem;
-  color: #00acee;
+  color: #006699;
 }
 
 .sponsors p{
