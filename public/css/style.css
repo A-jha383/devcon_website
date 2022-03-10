@@ -490,7 +490,7 @@ textarea.form-control {
       -ms-flex-align: center;
           align-items: center;
   padding-left: 66px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 1366px) {
