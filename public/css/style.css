@@ -21,25 +21,11 @@ ul:after {
   height: 0;
 }
 
-.sponsors{
-  margin: 30px;
-  margin-right: 0;
-  padding: 15rem;
- display: flex;
- align-items: center;
- justify-content: center;
- /* flex-direction: column; */
- height: 30vh;
-}
-
-.growaza{
-  width:250px;
-  height:250px;
-}
-
-.sponsors img{
-   margin-right:1.8rem;
-  width:300px;
+.sponsors-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0;
 }
 
 .sponsor-head{
@@ -49,12 +35,6 @@ ul:after {
   color: #006699;
 }
 
-.sponsors p{
-  font-weight: 800;
-  font-size: 1.8rem;
-  letter-spacing: 1.4px;
-  margin-top: 2rem;
-}
 
 mx-auto gallery-slider img{
   object-fit: cover;
